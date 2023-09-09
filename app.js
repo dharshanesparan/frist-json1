@@ -26,6 +26,5 @@ let json6= `[
 ]`
 
 let parse =JSON.parse(json6)
-
 console.log(parse[1].price)
 console.log(JSON.stringify(parse))
