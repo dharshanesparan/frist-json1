@@ -1,0 +1,19 @@
+{
+  "name": "frist-json1",
+  "version": "1.0.0",
+  "description": "nodes js Tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharshanesparan/frist-json1.git"
+  },
+  "author": "Creative Developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dharshanesparan/frist-json1/issues"
+  },
+  "homepage": "https://github.com/dharshanesparan/frist-json1#readme"
+}
