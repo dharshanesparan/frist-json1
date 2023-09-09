@@ -6,7 +6,7 @@ let json5={
     "stock ":"Tcs",
     "price":34000
 }
-let json6=[
+let json6= `[
 
     {"stock ":"Tcs",
     "price":34000
@@ -17,18 +17,15 @@ let json6=[
 
  "Name ":"Dharshan",
  "Age":20
-    }
-]
+    },
 
+    {
+        "Adress ":"mangkulam",
+        "country":"Sri Lanlak"
+           }
+]`
 
+let parse =JSON.parse(json6)
 
-
-
-
-
-
-
-
-
-
-console.log(json1,json2,json3,json4,json5,json6)
+console.log(parse[1].price)
+console.log(JSON.stringify(parse))
